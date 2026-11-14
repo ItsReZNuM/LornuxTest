@@ -27,7 +27,7 @@ and donate like they will in evaluation.
 - `GET /travel?from=lat,lon&to=lat,lon` -> `{ "minutes": number }`.
 - The service may return `429`; retry with bounded backoff.
 
-## Inventory
+## Inventorykajsdnkajsnd
 - `GET /health` -> `{ "ok": true }`
 - `GET /inventory` -> `{ "sim_time": number, "items": [{ "center_id", "blood_group", "product", "units", "expires_at", "expires_sim_min" }] }`
 - `POST /inventory/dispatch` accepts `dispatch_id`, `request_id`, `center_id`, `blood_group`, `product`, `units`.
